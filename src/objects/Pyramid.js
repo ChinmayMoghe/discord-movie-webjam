@@ -6,7 +6,7 @@ function Pyramid({
   rotation = [-360, 65, 0],
 }) {
   return (
-    <mesh scale={scale} rotation={rotation}>
+    <mesh position={[0, 2, 0]} scale={scale} rotation={rotation}>
       <coneBufferGeometry
         attach="geometry"
         args={[4, 6, 3, 2, false, 0, 6.284]}
